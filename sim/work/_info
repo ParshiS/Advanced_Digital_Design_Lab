@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vAccessController
+!s110 1554961324
+!i10b 1
+!s100 UK:Oz21m:166H_2<z06]F1
+IKXgMChC?[=Lz>EPB3jP;U1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/sim
+w1554959800
+8C:\Users\Parshi Srinidhi\Documents\UH Coursework\LAB4_8179\sim\AccessController.v
+FC:\Users\Parshi Srinidhi\Documents\UH Coursework\LAB4_8179\sim\AccessController.v
+L0 7
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1554961323.000000
+!s107 C:\Users\Parshi Srinidhi\Documents\UH Coursework\LAB4_8179\sim\AccessController.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Parshi Srinidhi\Documents\UH Coursework\LAB4_8179\sim\AccessController.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@access@controller
+vGameController
+Z6 !s110 1554961323
+!i10b 1
+!s100 CI_j8iK_MP`L[;3K5`[2d2
+IYmSKo@_OnbG<jHNiXXETT1
+R0
+R1
+w1554957529
+8C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/sim/GameController.v
+FC:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/sim/GameController.v
+L0 7
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/sim/GameController.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/sim/GameController.v|
+!i113 1
+R4
+R5
+n@game@controller
+vLab4_8179
+R6
+!i10b 1
+!s100 O<:mDQHkPLlL0`STCfahL2
+IPbDH0=A8SX^DZPmb1idcF2
+R0
+R1
+w1554961321
+8C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/sim/Lab4_8179.v
+FC:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/sim/Lab4_8179.v
+L0 6
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/sim/Lab4_8179.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/sim/Lab4_8179.v|
+!i113 1
+R4
+R5
+n@lab4_8179

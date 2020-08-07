@@ -1,0 +1,179 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 00:27:11  April 11, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Lab4_8179_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY Lab4_8179
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:27:11  APRIL 11, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE ../src/Verification.v
+set_global_assignment -name VERILOG_FILE ../src/TimerOneSecondWD.v
+set_global_assignment -name VERILOG_FILE ../src/TimerOneSecond.v
+set_global_assignment -name VERILOG_FILE ../src/Timer100msWD.v
+set_global_assignment -name VERILOG_FILE ../src/Timer100ms.v
+set_global_assignment -name VERILOG_FILE ../src/Timer1msWD.v
+set_global_assignment -name VERILOG_FILE ../src/Timer1ms_tb.v
+set_global_assignment -name VERILOG_FILE ../src/Timer1ms.v
+set_global_assignment -name VERILOG_FILE ../src/SingleDigitTimer_tb.v
+set_global_assignment -name VERILOG_FILE ../src/SingleDigitTimer.v
+set_global_assignment -name VERILOG_FILE ../src/SevenSegmentDec.v
+set_global_assignment -name VERILOG_FILE ../src/SevenSegDec_tb.v
+set_global_assignment -name VERILOG_FILE ../src/ROM.v
+set_global_assignment -name VERILOG_FILE ../src/RandomNumGen_tb.v
+set_global_assignment -name VERILOG_FILE ../src/RandomNumGen.v
+set_global_assignment -name VERILOG_FILE ../src/LoadRegister_tb.v
+set_global_assignment -name VERILOG_FILE ../src/LoadRegister.v
+set_global_assignment -name VERILOG_FILE ../src/Lab4_8179.v
+set_global_assignment -name VERILOG_FILE ../src/GameController.v
+set_global_assignment -name VERILOG_FILE ../src/DigitTimer_tb.v
+set_global_assignment -name VERILOG_FILE ../src/DigitTimer.v
+set_global_assignment -name VERILOG_FILE ../src/CountTo100WD.v
+set_global_assignment -name VERILOG_FILE ../src/CountTo100_tb.v
+set_global_assignment -name VERILOG_FILE ../src/CountTo100.v
+set_global_assignment -name VERILOG_FILE ../src/CountTo10WD.v
+set_global_assignment -name VERILOG_FILE ../src/CountTo10.v
+set_global_assignment -name VERILOG_FILE ../src/Counter.v
+set_global_assignment -name VERILOG_FILE ../src/ButtonShaper_tb.v
+set_global_assignment -name VERILOG_FILE ../src/ButtonShaper.v
+set_global_assignment -name VERILOG_FILE ../src/adder_tb.v
+set_global_assignment -name VERILOG_FILE ../src/Adder.v
+set_global_assignment -name VERILOG_FILE ../src/AccessController.v
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity Lab3_PARSHI_S -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity Lab3_PARSHI_S -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity Lab3_PARSHI_S -section_id Top
+set_location_assignment PIN_N21 -to ACButton
+set_location_assignment PIN_E21 -to GLED
+set_location_assignment PIN_AB26 -to PWDIn[1]
+set_location_assignment PIN_AD26 -to PWDIn[0]
+set_location_assignment PIN_AC25 -to PWDIn[2]
+set_location_assignment PIN_AB25 -to PWDIn[3]
+set_location_assignment PIN_H15 -to RLED
+set_location_assignment PIN_U21 -to SSDPWDO[1]
+set_location_assignment PIN_AB20 -to SSDPWDO[2]
+set_location_assignment PIN_AA21 -to SSDPWDO[3]
+set_location_assignment PIN_AD24 -to SSDPWDO[4]
+set_location_assignment PIN_V21 -to SSDPWDO[0]
+set_location_assignment PIN_AF23 -to SSDPWDO[5]
+set_location_assignment PIN_Y19 -to SSDPWDO[6]
+set_location_assignment PIN_M23 -to Player2Load
+set_location_assignment PIN_AB28 -to Player2In[0]
+set_location_assignment PIN_AC28 -to Player2In[1]
+set_location_assignment PIN_AC27 -to Player2In[2]
+set_location_assignment PIN_AD27 -to Player2In[3]
+set_location_assignment PIN_AA14 -to SevSegDispP1[6]
+set_location_assignment PIN_AD17 -to SevSegDispP1[0]
+set_location_assignment PIN_AE17 -to SevSegDispP1[1]
+set_location_assignment PIN_AG17 -to SevSegDispP1[2]
+set_location_assignment PIN_AH17 -to SevSegDispP1[3]
+set_location_assignment PIN_AF17 -to SevSegDispP1[4]
+set_location_assignment PIN_AG18 -to SevSegDispP1[5]
+set_location_assignment PIN_G18 -to SevSegDispP2[0]
+set_location_assignment PIN_F22 -to SevSegDispP2[1]
+set_location_assignment PIN_E17 -to SevSegDispP2[2]
+set_location_assignment PIN_L26 -to SevSegDispP2[3]
+set_location_assignment PIN_L25 -to SevSegDispP2[4]
+set_location_assignment PIN_J22 -to SevSegDispP2[5]
+set_location_assignment PIN_H22 -to SevSegDispP2[6]
+set_location_assignment PIN_Y2 -to clk
+set_location_assignment PIN_M21 -to rst
+set_location_assignment PIN_AB19 -to SevSegRes[0]
+set_location_assignment PIN_AA19 -to SevSegRes[1]
+set_location_assignment PIN_AG21 -to SevSegRes[2]
+set_location_assignment PIN_AH21 -to SevSegRes[3]
+set_location_assignment PIN_AE19 -to SevSegRes[4]
+set_location_assignment PIN_AF19 -to SevSegRes[5]
+set_location_assignment PIN_AE18 -to SevSegRes[6]
+set_location_assignment PIN_R24 -to LoadRandNum
+set_location_assignment PIN_AA23 -to TenDigit[0]
+set_location_assignment PIN_AA22 -to TenDigit[1]
+set_location_assignment PIN_Y24 -to TenDigit[2]
+set_location_assignment PIN_Y23 -to TenDigit[3]
+set_location_assignment PIN_AC24 -to UnitDigit[0]
+set_location_assignment PIN_AB24 -to UnitDigit[1]
+set_location_assignment PIN_AB23 -to UnitDigit[2]
+set_location_assignment PIN_AA24 -to UnitDigit[3]
+set_location_assignment PIN_AA25 -to SSTenDigit[0]
+set_location_assignment PIN_AA26 -to SSTenDigit[1]
+set_location_assignment PIN_Y25 -to SSTenDigit[2]
+set_location_assignment PIN_W26 -to SSTenDigit[3]
+set_location_assignment PIN_Y26 -to SSTenDigit[4]
+set_location_assignment PIN_W27 -to SSTenDigit[5]
+set_location_assignment PIN_W28 -to SSTenDigit[6]
+set_location_assignment PIN_M24 -to SSUnitDigit[0]
+set_location_assignment PIN_Y22 -to SSUnitDigit[1]
+set_location_assignment PIN_W21 -to SSUnitDigit[2]
+set_location_assignment PIN_W22 -to SSUnitDigit[3]
+set_location_assignment PIN_W25 -to SSUnitDigit[4]
+set_location_assignment PIN_U23 -to SSUnitDigit[5]
+set_location_assignment PIN_U24 -to SSUnitDigit[6]
+set_location_assignment PIN_G16 -to RedLEDP
+set_location_assignment PIN_F17 -to GreenLEDP
+set_location_assignment PIN_AA17 -to SSVerifyT[0]
+set_location_assignment PIN_AB16 -to SSVerifyT[1]
+set_location_assignment PIN_AA16 -to SSVerifyT[2]
+set_location_assignment PIN_AB17 -to SSVerifyT[3]
+set_location_assignment PIN_AB15 -to SSVerifyT[4]
+set_location_assignment PIN_AA15 -to SSVerifyT[5]
+set_location_assignment PIN_AC17 -to SSVerifyT[6]
+set_location_assignment PIN_AD18 -to SSVerifyU[0]
+set_location_assignment PIN_AC18 -to SSVerifyU[1]
+set_location_assignment PIN_AB18 -to SSVerifyU[2]
+set_location_assignment PIN_AH19 -to SSVerifyU[3]
+set_location_assignment PIN_AG19 -to SSVerifyU[4]
+set_location_assignment PIN_AF18 -to SSVerifyU[5]
+set_location_assignment PIN_AH18 -to SSVerifyU[6]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity Lab3_PARSHI_S -section_id Top
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

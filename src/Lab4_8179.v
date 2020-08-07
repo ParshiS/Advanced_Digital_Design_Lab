@@ -1,0 +1,42 @@
+//ECE6370
+//Author:8179
+//Top Level Module
+//Trial #1, 4/11/19
+
+module Lab4_8179(clk, rst, PWDIn, ACButton, LoadRandNum, Player2In, Player2Load, TenDigit, UnitDigit, SevSegDispP1, 
+		SevSegDispP2, SevSegRes, SSDPWDO, SSTenDigit, SSUnitDigit, RLED, GLED,GreenLEDP, RedLEDP,SSVerifyU, SSVerifyT);
+
+	input [3:0] PWDIn, Player2In, TenDigit, UnitDigit;
+	input ACButton, Player2Load, clk, rst, LoadRandNum;
+	output RLED, GLED, GreenLEDP, RedLEDP;
+	output [6:0] SevSegDispP1, SevSegDispP2, SSDPWDO, SevSegRes, SSTenDigit, SSUnitDigit,SSVerifyU, SSVerifyT;
+
+	wire  LoadPlayer2Out, BPushOPWD, BPushOP2, FTout, TimeOut, StrtOneSec, StrtDigTimer, LoadRandNumOut, LogOut;
+	wire [3:0] LoadP2, sum, CounterOut, TensBinaryOut, UnitsBinaryOut, RandNum, PwdDisp, SSSumU, SSSumT;
+
+	
+	LoadRegister LDP2( Player2In, rst, clk, LoadPlayer2Out, LoadP2);
+	
+	ButtonShaper BPWD(ACButton, rst, clk,  BPushOPWD);
+	RandomNumGen RandGen(clk, rst, LoadRandNumOut, RandNum);
+	ButtonShaper BP2(Player2Load, rst, clk,  BPushOP2);
+
+	//AccessControl AC1( PWDIn, clk, rst,BPushOPWD , LoadRandNum, BPushOP2, FTout,  
+			//LoadRandNumOut, LoadPlayer2Out, StrtOneSec, StrtDigTimer, GLED, RLED, PwdDisp);
+	AccessController AC1(PWDIn, clk, rst, BPushOPWD, GLED, RLED, PwdDisp, LogOut);
+	GameController GC1(GLED, clk, rst, LoadRandNum, BPushOPWD, BPushOP2, FTout, LogOut,  LoadRandNumOut, LoadPlayer2Out, StrtOneSec, StrtDigTimer);
+	TimerOneSecond TOS1(StrtOneSec, clk, rst, CounterOut, TimeOut);
+	DigitTimer DT1(clk, rst, TenDigit, UnitDigit, StrtDigTimer, StrtDigTimer, TimeOut, TensBinaryOut, UnitsBinaryOut, FTout);
+	SevenSegmentDec SSD1(PwdDisp, SSDPWDO);
+	Adder Add1(RandNum, LoadP2, sum);
+	verification DUT(clk, rst, sum, LoadRandNumOut, LoadPlayer2Out,  SSSumT, SSSumU, GreenLEDP, RedLEDP);
+	SevenSegmentDec SSD2(RandNum, SevSegDispP1);
+	SevenSegmentDec SSD3(LoadP2, SevSegDispP2);
+	SevenSegmentDec SSD4(sum, SevSegRes);
+	SevenSegmentDec SSD5(TensBinaryOut, SSTenDigit);
+	SevenSegmentDec SSD6(UnitsBinaryOut, SSUnitDigit);
+	SevenSegmentDec SSD7(SSSumU, SSVerifyU);
+	SevenSegmentDec SSD8(SSSumT, SSVerifyT);
+	
+endmodule 
+

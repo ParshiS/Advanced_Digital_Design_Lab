@@ -1,0 +1,143 @@
+Archive Project report for Lab4_8179
+Thu Apr 11 00:33:36 2019
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu Apr 11 00:33:36 2019 ;
+; Revision Name          ; Lab4_8179                             ;
+; Top-level Entity Name  ; Lab4_8179                             ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/syn/Lab4_8179.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Lab4_8179.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4872 megabytes
+    Info: Processing ended: Thu Apr 11 00:33:36 2019
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++--------------------------------------------------------------------------------------+
+; Files Archived                                                                       ;
++--------------------------------------------------------------------------------------+
+; File Name                                                                            ;
++--------------------------------------------------------------------------------------+
+; ../src/AccessController.v                                                            ;
+; ../src/Adder.v                                                                       ;
+; ../src/adder_tb.v                                                                    ;
+; ../src/ButtonShaper.v                                                                ;
+; ../src/ButtonShaper_tb.v                                                             ;
+; ../src/Counter.v                                                                     ;
+; ../src/CountTo10.v                                                                   ;
+; ../src/CountTo10WD.v                                                                 ;
+; ../src/CountTo100.v                                                                  ;
+; ../src/CountTo100_tb.v                                                               ;
+; ../src/CountTo100WD.v                                                                ;
+; ../src/DigitTimer.v                                                                  ;
+; ../src/DigitTimer_tb.v                                                               ;
+; ../src/GameController.v                                                              ;
+; ../src/Lab4_8179.v                                                                   ;
+; ../src/LoadRegister.v                                                                ;
+; ../src/LoadRegister_tb.v                                                             ;
+; ../src/RandomNumGen.v                                                                ;
+; ../src/RandomNumGen_tb.v                                                             ;
+; ../src/ROM.v                                                                         ;
+; ../src/SevenSegDec_tb.v                                                              ;
+; ../src/SevenSegmentDec.v                                                             ;
+; ../src/SingleDigitTimer.v                                                            ;
+; ../src/SingleDigitTimer_tb.v                                                         ;
+; ../src/Timer1ms.v                                                                    ;
+; ../src/Timer1ms_tb.v                                                                 ;
+; ../src/Timer1msWD.v                                                                  ;
+; ../src/Timer100ms.v                                                                  ;
+; ../src/Timer100msWD.v                                                                ;
+; ../src/TimerOneSecond.v                                                              ;
+; ../src/TimerOneSecondWD.v                                                            ;
+; ../src/Verification.v                                                                ;
+; c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf                         ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/AccessController.v    ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Adder.v               ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/adder_tb.v            ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/ButtonShaper.v        ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/ButtonShaper_tb.v     ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Counter.v             ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo10.v           ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo10WD.v         ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo100.v          ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo100_tb.v       ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo100WD.v        ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/DigitTimer.v          ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/DigitTimer_tb.v       ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/GameController.v      ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Lab4_8179.v           ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/LoadRegister.v        ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/LoadRegister_tb.v     ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/RandomNumGen.v        ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/RandomNumGen_tb.v     ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/ROM.v                 ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/SevenSegDec_tb.v      ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/SevenSegmentDec.v     ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/SingleDigitTimer.v    ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/SingleDigitTimer_tb.v ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer1ms.v            ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer1ms_tb.v         ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer1msWD.v          ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer100ms.v          ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer100msWD.v        ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/TimerOneSecond.v      ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/TimerOneSecondWD.v    ;
+; C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Verification.v        ;
+; Lab4_8179.qpf                                                                        ;
+; Lab4_8179.qsf                                                                        ;
+; ROM.mif                                                                              ;
++--------------------------------------------------------------------------------------+
+
+

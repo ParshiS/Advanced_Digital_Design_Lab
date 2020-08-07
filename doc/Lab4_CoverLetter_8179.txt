@@ -1,0 +1,17 @@
+---------------------------------------------
+Lab 4 Cover Letter
+Parshi Srinidhi, 8179
+---------------------------------------------
+New Features of Lab 4 are: 
+1) Pause during Game
+2) Resume after pause
+3) Startover the game
+4) Logout condition
+5) Password implementation using ROM
+6) Seperate Game and Access Control modules
+
+All features of Lab4 have been successfully implemented. 
+There are no known bugs, and all features have been tested using Quartus FPGA.
+
+
+--------------------------------------------

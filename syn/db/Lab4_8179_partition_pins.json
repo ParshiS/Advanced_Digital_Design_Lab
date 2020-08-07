@@ -1,0 +1,333 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SevSegDispP1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegDispP2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegRes[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegRes[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegRes[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegRes[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegRes[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegRes[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SevSegRes[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SSDPWDO[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SSDPWDO[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SSDPWDO[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SSDPWDO[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SSDPWDO[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SSDPWDO[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SSDPWDO[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SSTenDigit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SSTenDigit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SSTenDigit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SSTenDigit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SSTenDigit[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SSTenDigit[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SSTenDigit[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SSUnitDigit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SSUnitDigit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SSUnitDigit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SSUnitDigit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SSUnitDigit[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SSUnitDigit[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SSUnitDigit[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RLED",
+					"strict" : false
+				},
+				{
+					"name" : "GLED",
+					"strict" : false
+				},
+				{
+					"name" : "GreenLEDP",
+					"strict" : false
+				},
+				{
+					"name" : "RedLEDP",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SSVerifyT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "Player2In[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Player2In[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Player2In[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Player2In[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PWDIn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "TenDigit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "TenDigit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "TenDigit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "TenDigit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "UnitDigit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "UnitDigit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "UnitDigit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "UnitDigit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LoadRandNum",
+					"strict" : false
+				},
+				{
+					"name" : "ACButton",
+					"strict" : false
+				},
+				{
+					"name" : "Player2Load",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

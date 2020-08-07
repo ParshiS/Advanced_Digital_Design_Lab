@@ -1,0 +1,56 @@
+
+State Machine - |Lab4_8179|verification:DUT|STATE
+Name STATE.WAIT STATE.NEXTRN STATE.SCORE 
+STATE.WAIT 0 0 0 
+STATE.SCORE 1 0 1 
+STATE.NEXTRN 1 1 0 
+
+State Machine - |Lab4_8179|GameController:comb_4|STATE
+Name STATE.PWD_WAIT STATE.LOG_OUT STATE.BEGINAGN STATE.RESUME STATE.PAUSE STATE.STRTOVER STATE.TIMEOUT STATE.WAIT STATE.STIMER STATE.AUTH_STATE 
+STATE.AUTH_STATE 0 0 0 0 0 0 0 0 0 0 
+STATE.STIMER 0 0 0 0 0 0 0 0 1 1 
+STATE.WAIT 0 0 0 0 0 0 0 1 0 1 
+STATE.TIMEOUT 0 0 0 0 0 0 1 0 0 1 
+STATE.STRTOVER 0 0 0 0 0 1 0 0 0 1 
+STATE.PAUSE 0 0 0 0 1 0 0 0 0 1 
+STATE.RESUME 0 0 0 1 0 0 0 0 0 1 
+STATE.BEGINAGN 0 0 1 0 0 0 0 0 0 1 
+STATE.LOG_OUT 0 1 0 0 0 0 0 0 0 1 
+STATE.PWD_WAIT 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |Lab4_8179|AccessController:comb_3|STATE
+Name STATE.LOGOUT STATE.AUTH STATE.CatchDig4 STATE.SecWaitDig4 STATE.FirstWaitDig4 STATE.FetchFourDig STATE.CatchDig3 STATE.Secwaitdig3 STATE.Firstwaitdig3 STATE.FetchThdDig STATE.CatchDig2 STATE.SecWaitDig2 STATE.FirstWaitDig2 STATE.FetchSecDig STATE.CatchDig1 STATE.SecWaitDig1 STATE.FirstWaitDig1 STATE.FetchFrstDig STATE.FourPWDDig STATE.ThdPWDDig STATE.SecPWDDig STATE.FrstPWDDig 
+STATE.FrstPWDDig 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+STATE.SecPWDDig 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+STATE.ThdPWDDig 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+STATE.FourPWDDig 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+STATE.FetchFrstDig 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+STATE.FirstWaitDig1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+STATE.SecWaitDig1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+STATE.CatchDig1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+STATE.FetchSecDig 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+STATE.FirstWaitDig2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+STATE.SecWaitDig2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+STATE.CatchDig2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+STATE.FetchThdDig 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+STATE.Firstwaitdig3 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+STATE.Secwaitdig3 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+STATE.CatchDig3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+STATE.FetchFourDig 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+STATE.FirstWaitDig4 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+STATE.SecWaitDig4 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+STATE.CatchDig4 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+STATE.AUTH 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+STATE.LOGOUT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |Lab4_8179|ButtonShaper:BP2|CurrState
+Name CurrState.InitialState CurrState.WaitState CurrState.PulseState 
+CurrState.InitialState 0 0 0 
+CurrState.PulseState 1 0 1 
+CurrState.WaitState 1 1 0 
+
+State Machine - |Lab4_8179|ButtonShaper:BPWD|CurrState
+Name CurrState.InitialState CurrState.WaitState CurrState.PulseState 
+CurrState.InitialState 0 0 0 
+CurrState.PulseState 1 0 1 
+CurrState.WaitState 1 1 0 

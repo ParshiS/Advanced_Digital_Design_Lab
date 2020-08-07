@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at GameController.v(25): always construct contains both blocking and non-blocking assignments File: C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/GameController.v Line: 25
+Info (10281): Verilog HDL Declaration information at GameController.v(17): object "timeout" differs only in case from object "TIMEOUT" in the same scope File: C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/GameController.v Line: 17
+Warning (10268): Verilog HDL information at AccessController.v(36): always construct contains both blocking and non-blocking assignments File: C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/AccessController.v Line: 36
+Info (10281): Verilog HDL Declaration information at AccessController.v(10): object "LogOut" differs only in case from object "LOGOUT" in the same scope File: C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/AccessController.v Line: 10

@@ -1,0 +1,47 @@
+Quartus Prime Archive log --	C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/syn/Lab4_8179.qarlog
+
+Archive:	C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/syn/Lab4_8179.qar
+Date:		Thu Apr 11 00:33:36 2019
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/AccessController.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Adder.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/ButtonShaper.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/ButtonShaper_tb.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo10.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo100.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo100WD.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo100_tb.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/CountTo10WD.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Counter.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/DigitTimer.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/DigitTimer_tb.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/GameController.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Lab4_8179.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/LoadRegister.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/LoadRegister_tb.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/ROM.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/RandomNumGen.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/RandomNumGen_tb.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/SevenSegDec_tb.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/SevenSegmentDec.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/SingleDigitTimer.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/SingleDigitTimer_tb.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer100ms.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer100msWD.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer1ms.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer1msWD.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Timer1ms_tb.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/TimerOneSecond.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/TimerOneSecondWD.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/Verification.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/src/adder_tb.v
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/syn/Lab4_8179.qpf
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/syn/Lab4_8179.qsf
+C:/Users/Parshi Srinidhi/Documents/UH Coursework/LAB4_8179/syn/ROM.mif
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 36 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
